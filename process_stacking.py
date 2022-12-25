@@ -102,7 +102,7 @@ if __name__ == '__main__':
     # load model
     model_close,model_open,model_high, model_low  =loadModelStacking()
     prepareVariable(df,MA_1,MA_2,MA_3)
-    n=5
+    n=365
     df3 = pd.read_csv("./data/stacking/btc_pred_process.csv")
 
     for i in range(n):
